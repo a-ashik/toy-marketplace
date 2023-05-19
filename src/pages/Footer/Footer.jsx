@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="container-fluid text-center text-md-left">
                 <div className="row">
                     <div className="col-md-6 mt-md-0 mt-3">
-                        <h5 className="text-uppercase">Footer Content</h5>
+                        <h5 className="text-uppercase">Toy World</h5>
                         <p>Here you can use rows and columns to organize your footer content.</p>
                     </div>
 
@@ -25,8 +25,8 @@ const Footer = () => {
                     <div className="col-md-3 mb-md-0 mb-3">
                         <h5 className="text-uppercase">Links</h5>
                         <ul className="list-unstyled">
-                            <li>Link 1</li>
-                            <li>Link 2</li>
+                            <li>Car</li>
+                            <li>Truck</li>
                         </ul>
                     </div>
                 </div>
