@@ -12,9 +12,7 @@ const Home = () => {
         .then(data => setToyData(data))
 
     },[])
-
-    console.log(toyData);
-
+    
     return (
         <div>
             <Banner></Banner>

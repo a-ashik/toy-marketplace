@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 
 const SingleData = ({data}) => {
 
-    console.log(data.name);
-
     return (
         
     
