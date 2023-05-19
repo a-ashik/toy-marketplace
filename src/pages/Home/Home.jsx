@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Banner from '../Banner/Banner';
 import SingleData from '../SingleData/SingleData';
 import About from '../About/About';
+import Partners from '../Partners/Partners';
 
 const Home = () => {
 
@@ -29,6 +30,7 @@ const Home = () => {
                 }
             </div>
             <About></About>
+            <Partners></Partners>
 
         </div>
     );
