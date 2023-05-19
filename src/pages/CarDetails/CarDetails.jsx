@@ -18,7 +18,7 @@ const CarDetails = () => {
                     <hr />
                     <h3>Name: {name}</h3>
                     <p>Seller Name: {sellerName}</p>
-                    <p>price: {price}</p>
+                    <p>price: {price} $</p>
                     <p>Rating: {Rating} star</p>
                     <p>price: {price}</p>
                     <p>Description: {description}</p>

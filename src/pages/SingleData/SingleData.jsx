@@ -11,7 +11,7 @@ const SingleData = ({data}) => {
                 <img className="w-100 h-100" src={data.image} alt="" />
             </div>
                 <h3>Name: {data.name}</h3>
-                <p>Price: {data.price}</p>
+                <p>Price: {data.price} $</p>
                 <p>Rating: {data.Rating} star</p>
                 <button className='btn border'>
                     <Link to={`/${data._id}`}>View Details</Link>
