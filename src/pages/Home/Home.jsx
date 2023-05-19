@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Banner from '../Banner/Banner';
 import SingleData from '../SingleData/SingleData';
+import About from '../About/About';
 
 const Home = () => {
 
@@ -16,8 +17,8 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className='row container '>
-                <h1 className='mt-5 text-center'>Cars List</h1>
+            <div className='row container mx-auto'>
+                <h1 className='mt-5 text-center text-decoration-underline'>Cars List</h1>
                 {
                     toyData.map(data =>
                     <SingleData
@@ -27,6 +28,8 @@ const Home = () => {
                     )
                 }
             </div>
+            <About></About>
+
         </div>
     );
 };

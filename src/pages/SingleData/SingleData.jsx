@@ -5,9 +5,7 @@ import { Link } from 'react-router-dom';
 const SingleData = ({data}) => {
 
     return (
-        
-    
-        <div className="col-md-4 my-5">
+        <div className="col-md-4 my-5 border p-4 ">
            <div className="">
             <div className="carImg">
                 <img className="w-100 h-100" src={data.image} alt="" />
