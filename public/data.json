@@ -1,0 +1,75 @@
+[
+    {
+    "toy_id": 1,
+    "name": "car toy",
+    "image": "https://www.buddytoys.eu/getattachment/e022a3fd-616b-4878-b399-40f961534f22/BEC-7121.aspx",
+    "sellerName": "john smith",
+    "description": "Product of a phone details",
+    "sellerEmail": "john@gmail.com",
+    "sub-category ": "car",
+    "price": "100$",
+    "Rating": "5",
+    "available-quantity": "Dhaka,Bangladesh"
+    },
+    {
+    "toy_id": 2,
+    "name": "car toy",
+    "image": "https://www.buddytoys.eu/getattachment/e022a3fd-616b-4878-b399-40f961534f22/BEC-7121.aspx",
+    "sellerName": "john smith",
+    "description": "Product of a phone details",
+    "sellerEmail": "john@gmail.com",
+    "sub-category ": "car",
+    "price": "100$",
+    "Rating": "5",
+    "available-quantity": "Dhaka,Bangladesh"
+    },
+    {
+    "toy_id": 3,
+    "name": "car toy",
+    "image": "https://drivenbybattat.com/wp-content/uploads/WH1000_pr.jpg",
+    "sellerName": "john smith",
+    "description": "Product of a phone details",
+    "sellerEmail": "john@gmail.com",
+    "sub-category ": "truck",
+    "price": "100$",
+    "Rating": "5",
+    "available-quantity": "Dhaka,Bangladesh"
+    },
+    {
+    "toy_id": 4,
+    "name": "car toy",
+    "image": "https://drivenbybattat.com/wp-content/uploads/WH1000_pr.jpg",
+    "sellerName": "john smith",
+    "description": "Product of a phone details",
+    "sellerEmail": "john@gmail.com",
+    "sub-category ": "truck",
+    "price": "100$",
+    "Rating": "5",
+    "available-quantity": "Dhaka,Bangladesh"
+    },
+    {
+    "toy_id": 5,
+    "name": "car toy",
+    "image": "https://m.media-amazon.com/images/I/51bt9IaQdAL.jpg",
+    "sellerName": "john smith",
+    "description": "Product of a phone details",
+    "sellerEmail": "john@gmail.com",
+    "sub-category ": "firetruck",
+    "price": "100$",
+    "Rating": "5",
+    "available-quantity": "Dhaka,Bangladesh"
+    },
+    {
+    "toy_id": 6,
+    "name": "car toy",
+    "image": "https://m.media-amazon.com/images/I/51bt9IaQdAL.jpg",
+    "sellerName": "john smith",
+    "description": "Product of a phone details",
+    "sellerEmail": "john@gmail.com",
+    "sub-category ": "firetruck",
+    "price": "100$",
+    "Rating": "5",
+    "available-quantity": "Dhaka,Bangladesh"
+    }
+
+]
