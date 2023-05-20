@@ -5,10 +5,14 @@ const MySingleToy = ({data}) => {
 
 
     const handleDelate = (id) => {
-        console.log(id);
-        const y = confirm('You want to delete?')
-        if(y){
-
+        
+        const ensure = confirm('You want to delete?')
+        if(ensure){
+            fetch(``)
+            .then(response => response.json())
+            .then(data =>{
+                console.log(data);
+            })
         }
     }
 
