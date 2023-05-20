@@ -16,6 +16,7 @@ import Register from './pages/Register/Register';
 import AuthProvider from './provider/AuthProvider';
 import CarDetails from './pages/CarDetails/CarDetails';
 import PrivateRoute from './Routes/PrivateRoute';
+import NotFound from './NotFound/NotFound';
 
 
 const router = createBrowserRouter([
@@ -58,9 +59,14 @@ const router = createBrowserRouter([
         path: "/register",
         element:<Register></Register>
       }
+
     ]
 
   },
+  {
+    path: "*",
+    element:<NotFound></NotFound>
+  }
 ]);
 
 

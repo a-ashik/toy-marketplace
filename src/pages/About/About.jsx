@@ -10,7 +10,7 @@ const About = () => {
     },[])
 
     return (
-        <div className="mb-5">
+        <div className="mb-5 container">
             <h1 className='text-center text-decoration-underline'>About Us</h1>
             <div data-aos="fade-left" className="d-flex justify-content-around row">
                 <div className="col-md-4 col-sm-12 w-50 h-50">

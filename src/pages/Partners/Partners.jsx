@@ -13,7 +13,7 @@ const Partners = () => {
 
 
     return (
-        <div className="mb-5 text-center">
+        <div className="mb-5 text-center container">
             <h1 className="text-center text-decoration-underline">OUR PARTNERS</h1>
             <div data-aos="fade-left" className='d-flex justify-content-between mt-4 row mx-auto'>
                 <div  className='col-md-3 col-sm-12'>
