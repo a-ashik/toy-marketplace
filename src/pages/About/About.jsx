@@ -1,11 +1,18 @@
-import React from 'react'; 
+import React, { useEffect } from 'react'; 
 import about from '../../assets/photo1.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+
+    useEffect(() => {
+        AOS.init();
+    },[])
+
     return (
         <div className="mb-5">
             <h1 className='text-center text-decoration-underline'>About Us</h1>
-            <div className="d-flex justify-content-around row">
+            <div data-aos="fade-left" className="d-flex justify-content-around row">
                 <div className="col-md-4 col-sm-12 w-50 h-50">
                     <img className="w-100 h-100 rounded-4" src={about} alt="" />
                 </div>
