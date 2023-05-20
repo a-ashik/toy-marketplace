@@ -22,7 +22,7 @@ const AddToy = () => {
 
         const newdata = {
             name,
-            sellerEmail: email,
+            email,
             sellerName: sellername,
             image: photo,
             subcategory,

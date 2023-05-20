@@ -5,8 +5,6 @@ const CarDetails = () => {
 
     const SingleData = useLoaderData()
     const {name, description,price,image,sellerName,Rating} = SingleData;
-    console.log(SingleData);
-
     return (
         <div className="">
             <div className="d-flex justify-content-between  row">
