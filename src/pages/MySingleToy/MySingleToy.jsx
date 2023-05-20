@@ -1,20 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const MySingleToy = ({data}) => {
+const MySingleToy = ({data,handleDelate}) => {
 
 
-    const handleDelate = (id) => {
-        
-        const ensure = confirm('You want to delete?')
-        if(ensure){
-            fetch(``)
-            .then(response => response.json())
-            .then(data =>{
-                console.log(data);
-            })
-        }
-    }
 
 
     return (

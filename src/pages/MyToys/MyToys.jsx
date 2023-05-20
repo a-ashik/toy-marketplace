@@ -15,6 +15,26 @@ const MyToys = () => {
         .then(data=>setMyData(data))
     },[])
 
+
+
+    const handleDelate = (id) => {
+        const ensure = confirm('Are you really want to delete?')
+        if(ensure){
+            fetch(`http://localhost:5000/cardata/${id}`,{
+                method: 'DELETE'
+            })
+            .then(response => response.json())
+            .then(data =>{
+                console.log(data);
+                if(data.deletedCount > 0){
+                  const  remaingData = myData.filter(data => data._id !== id)
+                  setMyData(remaingData)
+                }
+            })
+        }
+    }
+
+
     return (
         <div>
             <h1 className='text-center'>My added Toy</h1>
@@ -23,6 +43,7 @@ const MyToys = () => {
                     myData.map(data => <MySingleToy
                     key={data._id}
                     data={data}
+                    handleDelate={handleDelate}
                     >
                     </MySingleToy>)
                 }
