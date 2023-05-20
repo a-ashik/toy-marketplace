@@ -18,9 +18,9 @@ const Header = () => {
 
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" className='my-2'  >
+            <Navbar collapseOnSelect expand="lg" className='my-1'  >
             <Container>
-                <Navbar.Brand href="#home">Toy-World</Navbar.Brand>
+                <Navbar.Brand href="#home" className="">Toy-World</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mx-auto gap-3">
@@ -40,7 +40,7 @@ const Header = () => {
                 </Navbar.Collapse>
             </Container>
             </Navbar>
-            <hr />
+            {/* <hr /> */}
         </div>
     );
 };

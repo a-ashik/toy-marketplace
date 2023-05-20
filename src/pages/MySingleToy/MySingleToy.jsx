@@ -15,10 +15,12 @@ const MySingleToy = ({data,handleDelate}) => {
             <p>Price: {data.price} $</p>
             <p>Rating: {data.Rating} star</p>
             <div className="d-flex">
-                <button className="btn btn-dark">Update</button>
+                <button className="btn btn-dark">
+                    <Link className="text-decoration-none text-light" to={`/${data._id}`}>View Details</Link>
+                </button>
                 <button onClick={() => handleDelate(data._id)} className="btn btn-dark ms-2">Delate</button>
             </div>
-            {/* <Link to={`/${data._id}`}>View Details</Link> */}
+           
        </div>
     );
 };

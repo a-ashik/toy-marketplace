@@ -36,7 +36,7 @@ const MyToys = () => {
 
 
     return (
-        <div>
+        <div className="container">
             <h1 className='text-center'>My added Toy</h1>
             <div className="row mx-auto">
                 {
