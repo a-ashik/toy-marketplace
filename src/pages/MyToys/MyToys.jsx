@@ -15,8 +15,6 @@ const MyToys = () => {
         .then(data=>setMyData(data))
     },[])
 
-    console.log(myData);
-
     return (
         <div>
             <h1 className='text-center'>My added Toy</h1>

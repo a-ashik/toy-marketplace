@@ -2,6 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const MySingleToy = ({data}) => {
+
+
+    const handleDelate = (id) => {
+        console.log(id);
+        const y = confirm('You want to delete?')
+        if(y){
+
+        }
+    }
+
+
     return (
         <div className="col-md-4 my-5  border p-4">
         <div className="carImg ">
@@ -12,7 +23,7 @@ const MySingleToy = ({data}) => {
             <p>Rating: {data.Rating} star</p>
             <div className="d-flex">
                 <button className="btn btn-dark">Update</button>
-                <button className="btn btn-dark ms-2">Delate</button>
+                <button onClick={() => handleDelate(data._id)} className="btn btn-dark ms-2">Delate</button>
             </div>
             {/* <Link to={`/${data._id}`}>View Details</Link> */}
        </div>
