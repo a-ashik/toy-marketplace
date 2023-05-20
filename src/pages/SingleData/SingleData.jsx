@@ -20,7 +20,7 @@ const SingleData = ({data}) => {
                 <p>Price: {data.price} $</p>
                 <p>Rating: {data.Rating} star</p>
                 <button className='btn border'>
-                    <Link to={`/${data._id}`}>View Details</Link>
+                    <Link className="text-decoration-none text-dark"  to={`/${data._id}`}>View Details</Link>
                 </button>
            </div>
         </div>

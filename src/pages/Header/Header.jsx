@@ -24,17 +24,17 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mx-auto gap-3">
-                    <Link to='/' >Home</Link>
-                    <Link to='/alltoys'>All Toys</Link>
-                    <Link to='/mytoys'>My Toys</Link>
-                    <Link to='/addtoy' >Add A Toy</Link>
-                    <Link to='/blog' >Blogs</Link>
+                    <Link className="text-decoration-none text-dark"  to='/' >Home</Link>
+                    <Link className="text-decoration-none text-dark"  to='/alltoys'>All Toys</Link>
+                    <Link className="text-decoration-none text-dark"  to='/mytoys'>My Toys</Link>
+                    <Link className="text-decoration-none text-dark"  to='/addtoy' >Add A Toy</Link>
+                    <Link className="text-decoration-none text-dark"  to='/blog' >Blogs</Link>
 
                 </Nav>
                 <Nav>
                     {user ? 
                     <button onClick={handleLogOut}>Logout</button> : 
-                    <Link to='/login'>Login</Link>
+                    <button><Link className="text-decoration-none text-dark" to='/login'>Login</Link></button>
                     }
                 </Nav>
                 </Navbar.Collapse>
