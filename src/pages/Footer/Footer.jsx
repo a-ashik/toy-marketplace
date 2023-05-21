@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-md-6 mt-md-0 mt-3">
                         <h5 className="text-uppercase">Toy World</h5>
-                        <p>Here you can use rows and columns to organize your footer content.</p>
+                        <p>Many miniature vehicles were originally aimed at children as playthings</p>
                     </div>
 
                     <hr className="clearfix w-100 d-md-none pb-0"/>
