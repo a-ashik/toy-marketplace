@@ -9,7 +9,7 @@ const Home = () => {
     const [toyData,setToyData] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/cardata')
+        fetch('https://toy-server-zeta.vercel.app/cardata')
         .then(response => response.json())
         .then(data => setToyData(data))
 

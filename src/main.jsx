@@ -31,7 +31,7 @@ const router = createBrowserRouter([
       {
         path: ":id",
         element:<CarDetails></CarDetails>,
-        loader:({params})=>fetch(`http://localhost:5000/cardata/${params.id}`)
+        loader:({params})=>fetch(`https://toy-server-zeta.vercel.app/cardata/${params.id}`)
       },
       {
         path: "/blog",

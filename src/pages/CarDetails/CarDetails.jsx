@@ -6,7 +6,7 @@ const CarDetails = () => {
     const SingleData = useLoaderData()
     const {name, description,price,image,sellerName,Rating} = SingleData;
     return (
-        <div className="">
+        <div className="container">
             <div className="d-flex justify-content-between  row">
                 <div className="w-50 h-50 col-md-4">
                     <img className="w-100 h-100" src={image} alt="" />

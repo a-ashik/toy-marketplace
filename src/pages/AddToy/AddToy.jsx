@@ -34,7 +34,7 @@ const AddToy = () => {
         console.log(newdata);
 
 
-        fetch('http://localhost:5000/cardata',{
+        fetch('https://toy-server-zeta.vercel.app/cardata',{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

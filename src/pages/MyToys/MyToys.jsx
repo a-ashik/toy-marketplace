@@ -7,7 +7,7 @@ const MyToys = () => {
     const [myData,setMyData] = useState([])
 
     const email = user?.email
-    const url = `http://localhost:5000/cardata?email=${email}`
+    const url = `https://toy-server-zeta.vercel.app/cardata?email=${email}`
     
     useEffect(()=>{
         fetch(url)
@@ -20,7 +20,7 @@ const MyToys = () => {
     const handleDelate = (id) => {
         const ensure = confirm('Are you really want to delete?')
         if(ensure){
-            fetch(`http://localhost:5000/cardata/${id}`,{
+            fetch(`https://toy-server-zeta.vercel.app/cardata/${id}`,{
                 method: 'DELETE'
             })
             .then(response => response.json())
