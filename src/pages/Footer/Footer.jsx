@@ -3,7 +3,6 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='text-center mp-5'>
-            {/* <h5>This is copyright of our website</h5>  */}
         <footer className="page-footer font-small blue pt-4 bg-dark text-light">
             <div className="container-fluid text-center text-md-left">
                 <div className="row">
